@@ -1,0 +1,123 @@
+body
+{
+    background-image: url('/imgs/cards.jpg');
+    background-size: cover;
+}
+
+.start{
+    font-size: 30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+    
+    
+
+}
+label{
+    color:rgb(196, 196, 225);
+    font-weight: bold;
+}
+
+.playBtn{
+    font-size: large;
+}
+
+#startValues{
+    font-size: 20px;
+}
+
+/* .game{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.computer, .player,.playerScoreDiv,.computerScoreDiv,.buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .player{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerScoreDiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+.computerCardBack,.computerCardBack2{
+    position: relative;
+    background-color: white;
+    margin-right: 10px;
+    
+    
+    border-style:solid;
+    width: 100px;
+    height: 150px;
+}
+
+ul{
+    background:  linear-gradient(to bottom, #FECB4B, #E9B949, #DAA249, #CC9147, #BF7D45) ;
+}
+
+.computerCardBack2{
+    background: linear-gradient(to bottom, #FECB4B, #E9B949, #DAA249, #CC9147, #BF7D45);
+
+}
+
+.computerCardBack2 p{
+    display:none;
+}
+
+.playerCardBack{
+    position: relative;
+    background-color: white;
+    margin-right: 10px;
+    margin-top:0%;
+    border-style:solid;
+    width: 100px;
+    height: 150px;
+}
+
+.bottomText{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+.topText{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.playerScore,.loss{
+    position: relative; 
+    background-color: rgb(22, 168, 252);
+    margin-right: 10px;
+    margin-top:1%;
+    margin-bottom: 2%;
+    text-align: center;
+    border-style:solid;
+    width: 200px;
+    height: 50px;
+    flex-direction: column;
+
+}
+
+.hit,.stand{
+    position: relative;
+    margin-right: 10px;
+    margin-top: 1%;
+}
+
